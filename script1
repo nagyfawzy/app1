@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ 
+
+for x  in  'ls'
+
+do 
+touch file1.txt 
+
+echo  'cat $x'  >> file1.txt
+
+done 
+echo " file updaed " 
+
